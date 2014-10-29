@@ -1,5 +1,5 @@
 class Bopit
-  attr_accessor :bop
+  attr_accessor :bop, :x, :y
   def initialize(game_window, x, y)
     @game_window = game_window
     @x = x
